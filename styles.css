@@ -1,0 +1,116 @@
+*{
+    font-family: 'Museo Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    /* outline: solid 1px black; */
+}
+
+.menu-list-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-unauthorized-logo-4{
+    height: 24px;
+    position: relative;
+    text-align: center;
+}
+
+.menu-logo{
+    margin-right: 24px;
+    
+}
+
+.menu-container{
+    display: inline-block;
+    position: relative;
+    flex-shrink: 0;
+    margin-right: 16px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.menu-container:hover{
+    color: sandybrown;
+}
+ 
+.menu-container .sozdat-koshelek{
+    padding: 8px 24px;
+    border-radius: 50px;
+    background-color: white;
+    border: solid 1px rgb(206, 206, 206);
+    font-size: 12px;
+    cursor: pointer;
+    
+}
+
+.menu-container .sozdat-koshelek:hover{
+    border: solid 1px rgb(143, 143, 143);
+}
+
+.menu-container .voiti{
+    padding: 8px 24px;
+    border-radius: 50px;
+    background-color: rgb(248, 150, 21);
+    border: solid 1px rgb(206, 206, 206);
+    font-size: 12px;
+    cursor: pointer;
+    color: white;
+}
+
+.Shnurki{
+    display: block;
+    font-size: 15px;
+    font-weight: 900;
+    line-height: 32px;
+    color: #000;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    text-align: center;
+
+}
+
+.number{
+    display: block;
+    font-family: "Museo Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    color: rgb(0, 0, 0);
+    text-overflow: ellipsis;
+    overflow: hidden;
+    overflow-wrap: break-word;
+    text-align: center;
+}
+
+.wallet{
+    display: flex;
+    justify-content: center;
+}
+
+.wallet button{
+    border: none;
+    padding: 10px 24px;
+    font-size: 14px;
+    margin-top: 20px;
+    font-weight: 400;
+    color: #fff;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    overflow-wrap: break-word;
+    background: linear-gradient(rgb(255, 152, 16), rgb(255, 131, 0));
+    border-radius: 20px;
+    box-shadow: rgb(255, 206, 135) 0px 15px 50px -10px;
+}
+
+.wallet button svg{
+    width: 16px;
+    vertical-align: bottom;
+}
+
+.bot{
+    text-align: center;
+}
