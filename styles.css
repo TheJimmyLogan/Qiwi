@@ -1,6 +1,10 @@
 *{
     font-family: 'Museo Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
-    /* outline: solid 1px black; */
+    /* outline: solid 1px #0004; */
+}
+
+body{
+    background-color: rgb(241, 241, 241);
 }
 
 .menu-list-container{
@@ -113,4 +117,155 @@
 
 .bot{
     text-align: center;
+}
+
+.img-pay{
+    width: 96px;
+}
+
+.text-pay h1{
+    margin: 0;
+    font-size: 18px;
+    margin-bottom: 6px;
+    
+}
+
+.text-pay p{
+    margin: 0;
+    font-size: 12px;
+    color: rgb(88, 88, 88);
+    margin-bottom: 16px;
+}
+
+.button-grey{
+    border-radius: 100px;
+    background-color: white;
+    border: solid 1px rgb(201, 201, 201);
+    padding: 8px 16px;
+    white-space: nowrap;
+}
+
+.container-apple-pay{
+    background-color: rgb(255, 255, 255);
+    margin: 36px auto;
+    width: 800px;
+    border-radius: 10px;
+    box-shadow: rgb(0 0 0 / 12%) 0px 1px 2px 0px;
+    display: flex;
+    align-items: center;
+    padding: 16px 32px;
+    gap: 32px;
+}
+
+.container-qiwi-pay{
+    width: 344px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: rgb(0 0 0 / 12%) 0px 1px 2px 0px;
+    display: flex;
+    align-items: center;
+    padding: 32px 32px;
+    gap: 32px;
+}
+
+.container-qiwi-pay img{
+    width: 140px;
+}
+
+.container-qiwi{
+    display: flex;
+    margin: 0 auto;
+    width: 800px;
+    gap: 32px;
+    
+}
+
+.container-footer{
+    width: 800px;
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.footer-left span{
+    display: block;
+    font-size: 10px;
+    font-weight: 300;
+    color: rgb(161, 161, 161);  
+    margin-bottom: 16px;
+}
+
+.links a{
+    font-size: 10px;
+    font-weight: 300;
+    color: rgb(161, 161, 161);  
+    text-decoration: none;
+    margin-right: 8px;
+}
+
+.links a:hover{
+    color: rgb(102, 102, 102);
+}
+
+.footer-right .phone{
+    font-size: 10px;
+    font-weight: 300;
+    color: rgb(161, 161, 161);
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+.footer-right .phone a{
+    text-decoration: none;
+    color: rgb(161, 161, 161);
+    font-size: 16px;
+    text-align: right;
+    margin-top: 8px;
+}
+
+.apps svg{
+    height: 20px;
+}
+
+
+.apps a{
+    margin-right: 8px;
+    text-decoration: none;
+}
+
+.social{
+    display: flex;
+    gap: 8px;
+    margin-top: 16px;
+    justify-content: flex-end;
+}
+
+.social svg{
+    height: 16px;
+}
+
+.social a{
+    display: flex;
+    border: solid 1px rgb(177, 177, 177);
+    border-radius: 100px;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    padding: 4px;
+}
+
+.social a:hover{
+    filter: contrast(0%);
+}
+
+.sponsors{
+    display: block;
+    margin-top: 16px;
+}
+
+.sponsors img{
+    height: 16px;
 }
