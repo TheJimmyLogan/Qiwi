@@ -1,6 +1,7 @@
 *{
     font-family: 'Museo Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
     /* outline: solid 1px #0004; */
+    box-sizing: border-box;
 }
 
 body{
@@ -158,7 +159,6 @@ body{
 }
 
 .container-qiwi-pay{
-    width: 344px;
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
     box-shadow: rgb(0 0 0 / 12%) 0px 1px 2px 0px;
@@ -269,3 +269,54 @@ body{
 .sponsors img{
     height: 16px;
 }
+
+@media screen and (max-width: 600px) {
+
+    .menu-list-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        margin-bottom: 24px;
+    }
+
+    .menu-logo{
+        text-align: center;
+        width: 100%;
+    }
+
+    .container-apple-pay {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .container-qiwi {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .container-footer{
+        align-items: center;
+        width: 100%;
+        flex-direction: column;
+    }
+    .footer-right span,
+    .footer-right .phone,
+    .footer-right .phone a{
+        text-align: left;
+    }
+
+    .footer-right{
+        width: 100%;
+    }
+
+    .social{
+        justify-content: flex-start;
+    }
+
+}
+
+
+    
