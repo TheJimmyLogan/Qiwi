@@ -23,7 +23,6 @@ body{
 
 .menu-logo{
     margin-right: 24px;
-    
 }
 
 .menu-container{
@@ -302,6 +301,7 @@ body{
         width: 100%;
         flex-direction: column;
     }
+
     .footer-right span,
     .footer-right .phone,
     .footer-right .phone a{
