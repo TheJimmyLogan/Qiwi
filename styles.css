@@ -175,6 +175,7 @@ body{
 .container-qiwi{
     display: flex;
     margin: 0 auto;
+    align-items: center;
     width: 800px;
     gap: 32px;
     
